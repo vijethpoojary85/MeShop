@@ -1,16 +1,34 @@
 {
   "seller": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Vijeth Poojari",
       "email": "vijeth@seller.com",
       "password": "abc@123"
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "rahul",
       "email": "rahul@seller.com",
       "password": "abc@123"
+    },
+    {
+      "id": "3677",
+      "name": "Hilda Silva",
+      "password": "abc@123",
+      "email": "qoxaki@mailinator.com"
+    },
+    {
+      "id": "2411",
+      "name": "Sebastian Barker",
+      "password": "abc@123",
+      "email": "fudafoq@mailinator.com"
+    },
+    {
+      "id": "5779",
+      "name": "Eaton Mcpherson",
+      "password": "abc@123",
+      "email": "bytu@mailinator.com"
     }
   ]
 }
