@@ -5,3 +5,22 @@ body {
     margin-left: 5%;
     margin-right: 5%;
   }
+  .common-form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: auto;
+  }
+  .form-input {
+    height: 35px;
+    margin-bottom: 20px;
+    border: 1px solid #824f1c;
+    padding-left: 15px;
+    color: #824f1c;
+  }
+  .form-button {
+    height: 35px;
+    border: 1px solid #824f1c;
+    color: #824f1c;
+    cursor: pointer;
+  }
