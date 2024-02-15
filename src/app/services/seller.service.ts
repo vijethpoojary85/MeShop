@@ -9,6 +9,7 @@ import { Router } from '@angular/router';
 })
 export class SellerService {
   isSellerLoggedIn = new BehaviorSubject<boolean>(false);
+  static isSellerLoggedIn: any;
   constructor(private http: HttpClient, private router: Router) {}
   userSignUp(data: SignUp) {
     this.http
@@ -17,9 +18,17 @@ export class SellerService {
         this.isSellerLoggedIn.next(true);
         localStorage.setItem('seller', JSON.stringify(result.body));
         this.router.navigate(['seller-home']);
-        console.log('result', result);
+     
       });
 
-    return false;
+
   }
-}
+  reloadSeller(){
+    if(localStorage.getItem('seller')){
+      this.isSellerLoggedIn.next(true)
+      this.router.navigate(['seller-home'])
+    }
+  }
+  }
+
+

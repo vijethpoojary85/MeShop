@@ -1,0 +1,30 @@
+/* .slide{
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.splide-track{
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.splide__list ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    align-items: center;
+  }
+  img{
+    max-width: 100%;
+    align-items: center;
+  }
+  
+.splide__slide li {
+    display: inline-block;
+    margin: 0 10px;
+    align-items: center;
+  }
+  */
