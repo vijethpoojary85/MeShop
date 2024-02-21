@@ -16,6 +16,7 @@
 <!--login area -->
 <div *ngIf="showLogin"class="sign-up">
   <h1>Login</h1>
+  <p class="error"> {{authError}} </p>
   <form #sellerLogin="ngForm" (ngSubmit)="login(sellerLogin.value)" class="common-form" >
     <input type="email" placeholder="Enter Email" ngModel name="email" class="form-input" required>
     <input type="password" placeholder="Enter Password" ngModel name="password" class="form-input" required>
