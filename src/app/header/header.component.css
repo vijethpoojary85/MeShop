@@ -1,78 +1,71 @@
 .nav {
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .nav h1 {
-    color: hwb(30 11% 49%);
-    margin: 0;
-    font-size: 40px;
-  }
-  .nav .nav-search {
-    flex: 1;
-    display: flex;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(24, 24, 24); /* Example color */
+  color: #fff;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+body{
+  background-color: black;
+}
+.nav h1 {
+  margin: 0;
+  font-size: 20px; /* Example font size */
+}
 
-  }
-  
-  .nav .nav-search input {
-      flex: 1;
-      color: hwb(30 11% 49%);
-      border: 1px solid hwb(30 11% 49%);
-      height: 39px;
+.nav-search {
+  display: flex;
+  align-items: center;
+}
 
-      margin-right: 10px;
-  }
-  
-  .nav .nav-search button{
-   
-      color: hwb(30 11% 49%);
-      border: 1px solid hwb(30 11% 49%);
-      height: 39px;
-  }
-  
-  .nav ul {
-      display: inline-flex;
-      margin: 0;
-      padding: 0;
-      list-style-type: none;
-  }
-  
-  .nav ul li{
-      padding-left: 15px;
-      padding-top: 15px;
-  }
-  
-  .nav ul a {
-      text-decoration: none;
-      color: hwb(30 11% 49%);
-      cursor: pointer;
-  }
-  
-  h1 a{
-    color: hwb(30 11% 49%);
-    text-decoration: none;
-  }
-  
-  .suggested-search{
-    position: absolute;
-    top: 40px;
-    z-index: 10;
-    display: list-item !important;
-    border: 1px solid #ddd;
-    background-color: #fff;
-    width: 300px;
-  }
-  .suggested-search li {
-    padding:5px;
-    border: 1px solid #ddd;
-  }
-  .suggested-search li a{
-    cursor: pointer;
-    color: blueviolet;
-  }
+.nav-search input[type="text"] {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  margin-right: 10px;
+  background-color: #fff; /* Example background color */
+}
+
+.nav-search button {
+  padding: 8px 15px;
+  border-radius: 5px;
+  border: none;
+  background-color: #4caf50;
+  color: #fff;
+  cursor: pointer;
+  margin-right: 30px;
+}
+
+.nav-search button:hover {
+  background-color: #45a049;
+}
+
+.nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav ul li {
+  margin-right: 20px;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px; /* Example font size */
+}
+
+.nav ul li a:hover {
+  text-decoration: underline;
+  color: #4caf50; /* Example hover color */
+}
+
+
 
 
 
