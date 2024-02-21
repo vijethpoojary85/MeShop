@@ -1,15 +1,68 @@
-.sign-up, .login{
+/* Container for sign-up and login */
+.seller-auth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* background-color: #f0f0f0; */
+  }
+  
+  /* Form container */
+  .sign-up {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  /* Form header */
+  .sign-up h1 {
+    margin-bottom: 30px;
     text-align: center;
-}
-.sign-up h1, .login h1{
-    margin-top: 50px;
-    margin-bottom: 80px;
-    color: #824f1c
- 
-}
-.auth-toggle-link{
-    color: blueviolet;
-    font-size: 14px;
+    color: #333;
+  }
+  
+  /* Form inputs */
+  .form-input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+  }
+  
+  /* Form button */
+  .form-button {
+    width: 100%;
+    /* padding: 12px; */
+    padding-top: 15px;
+    padding-bottom: 30px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .form-button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Link */
+  .sign-up a {
+    display: block;
+    text-align: center;
     margin-top: 20px;
-    text-align: left;
-}
+    color: #007bff;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .sign-up a:hover {
+    text-decoration: underline;
+  }
+  

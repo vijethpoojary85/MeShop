@@ -17,6 +17,9 @@ export class SellerAuthComponent implements OnInit {
   signUp(data: SignUp): void {
     this.seller.userSignUp(data);
   }
+  login(data: SignUp): void {
+    console.log("first",data);
+  }
 
   openLogin() {
     this.showLogin = true;
