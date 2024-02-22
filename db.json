@@ -404,6 +404,12 @@
       "name": "Vijeth",
       "password": "abc@123",
       "email": "vijeth@gmail.com"
+    },
+    {
+      "id": "f15f",
+      "name": "rajath",
+      "password": "abc@123",
+      "email": "rajath@gmail.com"
     }
   ]
 }
