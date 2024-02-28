@@ -1,3 +1,4 @@
+@import "../node_modules/ng-zorro-antd/ng-zorro-antd.less"; 
 body {
     font-family: sans-serif;
     background-color: black;
@@ -26,3 +27,5 @@ body {
     color: #824f1c;
     cursor: pointer;
   }
+  /* @import "../../node_modules/ng-zorro-antd/ng-zorro-antd.less"; */
+

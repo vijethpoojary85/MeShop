@@ -10,6 +10,8 @@ import { SellerAuthModule } from './seller-auth/seller-auth.module';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { SellerHomeComponent } from './seller-home/seller-home.component';
+import { NzButtonModule } from 'ng-zorro-antd/button';
+import { NzAvatarModule } from 'ng-zorro-antd/avatar';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { SellerHomeComponent } from './seller-home/seller-home.component';
     BrowserModule,
     AppRoutingModule,
     FormsModule,SellerAuthModule,
-    HttpClientModule
+    HttpClientModule,
+    NzButtonModule,
+    NzAvatarModule
   ],
   providers: [
     provideClientHydration()
