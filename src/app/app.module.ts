@@ -12,6 +12,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { SellerHomeComponent } from './seller-home/seller-home.component';
 import { NzButtonModule } from 'ng-zorro-antd/button';
 import { NzAvatarModule } from 'ng-zorro-antd/avatar';
+import { SellerAddProductComponent } from './seller-add-product/seller-add-product.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { NzAvatarModule } from 'ng-zorro-antd/avatar';
 
     HomeComponent,
     
-    SellerHomeComponent
+    SellerHomeComponent,
+          SellerAddProductComponent
   ],
   imports: [
     BrowserModule,

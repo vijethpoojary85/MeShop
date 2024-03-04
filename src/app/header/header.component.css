@@ -14,7 +14,10 @@ body{
   margin: 0;
   font-size: 20px; /* Example font size */
 }
-
+a{
+  color: white;
+  text-decoration: none;
+}
 .nav-search {
   display: flex;
   align-items: center;

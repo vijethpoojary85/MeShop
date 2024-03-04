@@ -1,9 +1,11 @@
-@import "../node_modules/ng-zorro-antd/ng-zorro-antd.less"; 
+/* @import "../node_modules/ng-zorro-antd/ng-zorro-antd.less";  */
 body {
-    font-family: sans-serif;
-    background-color: black;
-    background-image: url(https://webartdevelopers.com/blog/wp-content/uploads/2020/06/css-particles-background.gif);
-  }
+  font-family: sans-serif;
+  background-color: black;
+  background-image: url(https://img.freepik.com/free-vector/online-shopping-concept_52683-63898.jpg?w=996&t=st=1709565265~exp=1709565865~hmac=62f639084a57b179959a4f7145e03dadce72a889ebd9199e59e697375f160636);
+  background-position: cover;
+}
+
   .container {
     margin-left: 5%;
     margin-right: 5%;
