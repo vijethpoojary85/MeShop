@@ -435,5 +435,79 @@
       "password": "",
       "email": ""
     }
+  ],
+  "products": [
+    {
+      "id": "60e5",
+      "name": "Flavia Mcfarland",
+      "price": 831,
+      "color": "Unde ipsum libero p",
+      "category": "Non explicabo Elige",
+      "description": "Voluptates cumque qu",
+      "image": "Veniam doloremque s"
+    },
+    {
+      "id": "285f",
+      "name": "Flavia Mcfarland",
+      "price": 831,
+      "color": "Unde ipsum libero p",
+      "category": "Non explicabo Elige",
+      "description": "Voluptates cumque qu",
+      "image": "Veniam doloremque s"
+    },
+    {
+      "id": "9fec",
+      "name": "Sumsung ",
+      "price": 29000,
+      "color": "black",
+      "category": "mobile",
+      "description": "good product",
+      "image": "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-14-3.jpg"
+    },
+    {
+      "id": "8e5b",
+      "name": "samsung",
+      "price": 377393,
+      "color": "black",
+      "category": "mobile",
+      "description": "good",
+      "image": "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-14-3.jpg"
+    },
+    {
+      "id": "317a",
+      "name": "samsung",
+      "price": 377393,
+      "color": "black",
+      "category": "mobileee",
+      "description": "good",
+      "image": ""
+    },
+    {
+      "id": "193b",
+      "name": "samsung",
+      "price": 377393,
+      "color": "black",
+      "category": "mobileee",
+      "description": "good",
+      "image": ""
+    },
+    {
+      "id": "ff60",
+      "name": "samsung",
+      "price": 377393,
+      "color": "black",
+      "category": "mobileee",
+      "description": "good",
+      "image": ""
+    },
+    {
+      "id": "7377",
+      "name": "Tyler Burke",
+      "price": 76,
+      "color": "Quas eum ut aliquip ",
+      "category": "Dolor vel officia qu",
+      "description": "Qui blanditiis iure ",
+      "image": "Adipisci et et enim "
+    }
   ]
 }

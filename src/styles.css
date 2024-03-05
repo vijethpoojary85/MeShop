@@ -29,5 +29,9 @@ body {
     color: #824f1c;
     cursor: pointer;
   }
+  .emessage{
+    color: green;
+    text-align: center;
+  }
   /* @import "../../node_modules/ng-zorro-antd/ng-zorro-antd.less"; */
 
