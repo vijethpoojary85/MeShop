@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class SellerAddProductComponent {
 
+
+submit(data:object){
+  console.log(data);
+
+}
+
+
 }

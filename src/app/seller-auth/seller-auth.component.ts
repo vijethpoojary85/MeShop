@@ -37,4 +37,6 @@ this.authError="Email and password is wrong";
   openSignUp() {
     this.showLogin = false;
   }
+
+
 }
