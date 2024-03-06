@@ -2,3 +2,19 @@ p{
     color: white;
     font-size: 80px;
 }
+table{
+    text-align: left;
+    color: brown;
+    border-collapse: collapse;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+}
+table td, table th{
+    border:1px solid red;
+    padding:10px;
+    min-height: 160px;
+}
+img{
+    width: 100px;
+    height: 100px;
+}
